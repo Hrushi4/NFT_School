@@ -1,0 +1,25 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap");
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.main_bg {
+ background: #0f0c29;
+ background: -webkit-linear-gradient(to right, #24243e, #302b63, #0f0c29);
+ background: linear-gradient(to right, #24243e, #302b63, #0f0c29);
+}
+
+.btn_primary {
+ background: rgb(183, 92, 255);
+ background: linear-gradient(
+  193deg,
+  rgba(183, 92, 255, 1) 15%,
+  rgba(103, 26, 228, 1) 89%
+ );
+}
+
+.btn_primary_outline {
+ background: transparent;
+ border: 3px solid
+  linear-gradient(193deg, rgba(183, 92, 255, 1) 15%, rgba(103, 26, 228, 1) 89%);
+}
