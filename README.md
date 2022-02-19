@@ -1,5 +1,12 @@
+NFT related website's frontend built using Next JS
+
+### For Demo
+
+https://nft-school.herokuapp.com
+
 ### Built With
 
+- [React](https://reactjs.org)
 - [Next JS](https://nextjs.org/)
 - [Tailwindcss](https://tailwindcss.com/)
 
